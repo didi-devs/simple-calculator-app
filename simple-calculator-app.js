@@ -118,6 +118,8 @@ const calculator = {
       return firstOperand * secondOperand;
     } else if (operator === '/') {
       return firstOperand / secondOperand;
+    } else if (operator === '%') {
+      return (firstOperand / 100) * secondOperand;
     }
   
     return secondOperand;
@@ -131,4 +133,3 @@ const calculator = {
     console.log(calculator);
   }
 
-  

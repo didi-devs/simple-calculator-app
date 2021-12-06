@@ -118,8 +118,7 @@ const calculator = {
       return firstOperand * secondOperand;
     } else if (operator === '/') {
       return firstOperand / secondOperand;
-    } 
-    
+    }
   
     return secondOperand;
   }
@@ -131,3 +130,5 @@ const calculator = {
     calculator.operator = null;
     console.log(calculator);
   }
+
+  

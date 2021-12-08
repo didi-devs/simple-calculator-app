@@ -26,13 +26,14 @@ const calculator = {
       case '*':
       case '/':
       case '=':
+      case '%':
         handleOperator(value);
         break;
       case '.':
         inputDecimal(value);
         break;
       case 'delete' :
-          remove();
+          OnClick();
         break;
       case 'all-clear':
         resetCalculator();

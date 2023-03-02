@@ -9,6 +9,10 @@ const calculator = {
     const display = document.querySelector('.calculator-screen');
     display.value = calculator.displayValue;
   }
+
+function calDel() {
+    calculator.displayValue = calculator.displayValue.splice(-1)
+}
   
   updateDisplay();
   
